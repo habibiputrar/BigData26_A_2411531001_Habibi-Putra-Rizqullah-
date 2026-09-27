@@ -1,0 +1,7 @@
+sumber,asal,diambil_pada,jumlah_baris,keterangan
+trip,https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet,2026-09-27T00:30:46.153373+00:00,3066766,Parquet bulanan NYC TLC
+zona,https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv,2026-09-27T00:30:46.153590+00:00,265,Tabel referensi zona NYC TLC
+cuaca,https://archive-api.open-meteo.com/v1/archive,2026-09-27T00:30:46.859117+00:00,744,Open-Meteo hourly archive untuk New York City
+tarif_referensi,/content/lapisan_mentah/operasional.db,2026-09-27T00:31:21.819215+00:00,6,Tabel dimensi dari basis data operasional
+tabel_analitik_pricing,hasil kurasi trip + zona + cuaca,2026-09-27T00:35:20.097051+00:00,2094,Satu baris per borough per jam; minimal 30 perjalanan
+trip_2023-01,https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet,2026-09-27T00:35:33.824548+00:00,2986910,Hasil pipeline inkremental bulanan
