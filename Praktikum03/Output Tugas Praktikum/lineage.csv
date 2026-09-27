@@ -1,0 +1,7 @@
+sumber,periode,asal,diambil_pada_utc,jumlah_baris,keterangan
+taxi_zone_lookup,referensi,https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv,2026-09-27T06:13:45.796017+00:00,265,Tabel referensi zona NYC TLC
+hari_libur_us,2023,https://date.nager.at/api/v3/PublicHolidays/2023/US,2026-09-27T06:13:45.796182+00:00,11,Sumber keempat; hari libur nasional AS
+nyc_tlc_trip,2023-01,https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-01.parquet,2026-09-27T05:53:24.052496+00:00,3066766,Data perjalanan mentah; sha256=32df6f67578fa86c484a6b5ef23a5281992ff085521082340b0f9e5889e9a572
+dataset_bersih,2023-01,/content/lapisan_mentah_tugas_p03/yellow_tripdata_2023-01.parquet,2026-09-27T05:53:24.195105+00:00,2986873,"Setelah filter periode, imputasi, deduplikasi, filter validitas, dan empat join"
+nyc_tlc_trip,2023-07,https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2023-07.parquet,2026-09-27T05:53:45.182627+00:00,2907108,Data perjalanan mentah; sha256=98504ae351d920e9e0b61241f5707f90ee1588cfb199c378459234b5035805ab
+dataset_bersih,2023-07,/content/lapisan_mentah_tugas_p03/yellow_tripdata_2023-07.parquet,2026-09-27T05:53:45.225529+00:00,2817607,"Setelah filter periode, imputasi, deduplikasi, filter validitas, dan empat join"

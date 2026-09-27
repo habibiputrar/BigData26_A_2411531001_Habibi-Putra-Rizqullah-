@@ -1,0 +1,9 @@
+periode,aturan,lulus,gagal,persen_gagal
+2023-07,kelengkapan: passenger_count ada,2822022,85086,2.9268
+2023-07,"validitas: jarak 0,01-100 mil",2857179,49929,1.7175
+2023-07,konsistensi: durasi 1-180 menit,2869003,38105,1.3108
+2023-07,validitas: total_amount > 0,2875868,31240,1.0746
+2023-07,konsistensi: total >= fare,2876483,30625,1.0535
+2023-07,ketepatan waktu: dalam periode berkas,2907049,59,0.002
+2023-07,keunikan: baris tidak duplikat,2907108,0,0.0
+2023-07,validitas: PULocationID dikenal,2907108,0,0.0
